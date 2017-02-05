@@ -248,6 +248,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+  config.omniauth :bookingsync, 'e29d0ae3734eb4ee96b80eec3a3c9ba5c123636de95300c10d401d6c8bbbc0bb', 'bb0ae4bd525c8cd2978ea635c430f2d009dd3096a2e13997a04d978a949bc4e8'
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
